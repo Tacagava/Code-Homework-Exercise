@@ -1,0 +1,167 @@
+body{
+    background-color: #e88b7f;
+    /*border: 10px solid black;*/
+    /*border-radius: 5%;*/
+    margin: 0;
+    font-family: Octopuss;
+
+
+}
+
+h1{
+    font-size: 100px;
+    font-family: Octopuss;
+    color: white;
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+
+}
+h2{
+    font-size: 70px;
+    font-family: Octopuss;
+    color: white;
+    text-shadow: -10px 0 black, 0 10px black, 10px 0 black, 0 -10px black;
+    
+
+}
+
+
+#section1 {
+    margin-top: 50px;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.div-img h1 {
+    position: absolute;
+    top: -30px;
+    margin: 0;
+}
+
+.div-img h2 {
+    position: absolute;
+    bottom: -30px;
+    margin: 0;
+}
+
+.div-img img{
+    border-radius: 30px;
+    border: 10px solid black;
+    width: 70vw;
+    height: 60vh;
+      
+}
+
+.div-botones {
+    margin: 40px;
+}
+
+.div-botones button{
+    font-family: Octopuss;
+    font-size: 40px;
+    text-shadow: -3px 0 rgb(255, 255, 255), 0 3px rgb(255, 255, 255), 3px 0 rgb(255, 255, 255), 0 -3px rgb(255, 255, 255);
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: 5px solid black;
+    /*background-color: #c39d53;*/
+    
+}
+.boton1{
+    background-color: orange;
+}
+.boton2{
+    background-color: #9dc28c;
+}
+
+.boton3{
+    background-color: #da152a;
+}
+.boton4{
+    background-color: #bb8032;
+}
+
+.div-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#section2 {
+    background-color: #8cd8ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#section2 .text-container{
+    flex-basis: 50%;
+}
+
+#section2 .text-container h1 {
+    margin: 10px;
+}
+
+#section2 .text-container p {
+    font-size: 30px;
+}
+
+#section2 img {
+    width: 400px;
+}
+#section3{
+    background-color: #9dc28c;
+}
+#section4{
+    background-color: #da152a;
+}
+
+section {
+    height: 100vh;
+}
+
+#section3.container {
+    position: relative;
+    width: 50%;
+  }
+
+#section3.container image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+#section3.container.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+#section3.container:hover.overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+#section3.container.overlay text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

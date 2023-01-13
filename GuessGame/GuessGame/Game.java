@@ -49,7 +49,7 @@ public class Game {
                         letraAAdivinar+=letra;
                         System.out.println(">>>Do you want to add a word to the game?<<<");
                         System.out.println("if you want, press 1 otherwise press 2:");
-                        int respuesta = sc.nextInt();
+                        int respuesta = sc.nextInt();   
                         if (respuesta == 1){
                             System.out.println("---Enter the word---");
                             String palabra = sc.next();
