@@ -49,6 +49,7 @@
 #derecha img{
     width: 50%;
     height: 50%;
+    overflow: hidden;
 
 }
 #derecha2 img{
