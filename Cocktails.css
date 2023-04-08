@@ -1,0 +1,35 @@
+.Box{
+    position: relative;
+    border-radius: 5%;
+    width: 50vh;
+    margin: 2vh;
+    padding: 5%;
+    color: white;
+    background-color: #c0652e;
+
+}
+
+.Portada img{
+    display: block;
+    width: 100%;
+}
+
+.Information{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #49663e;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.Box:hover .Information {
+    padding: 2px 20px;
+    border-radius: 5%;
+    width: 100%;
+}
+
+
